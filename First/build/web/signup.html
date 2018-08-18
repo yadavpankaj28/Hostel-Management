@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        
+        <style>
+              .grad {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left,rgba(255,0,0,0),rgba(255,0,0,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right,rgba(255,0,0,0),rgba(255,0,0,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right,rgba(255,0,0,0),rgba(255,0,0,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); /*Standard*/
+}
+        </style>
+          	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="description" content="Eduread - Education HTML5 Template">
+	<meta name="keywords" content="college, education, institute, responsive, school, teacher, template, university">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Admin</title> 
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/assets/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/assets/font-awesome.min.css">
+    <!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:600,700%7COpen+Sans:400,600" rel="stylesheet">     
+	<!-- Popup -->
+	<link href="css/assets/magnific-popup.css" rel="stylesheet"> 
+	<!-- Slick Slider -->
+	<link href="css/assets/slick.css" rel="stylesheet"> 	
+	<link href="css/assets/slick-theme.css" rel="stylesheet"> 	   
+	<!-- owl carousel -->
+	<link href="css/assets/owl.carousel.css" rel="stylesheet">
+	<link href="css/assets/owl.theme.css" rel="stylesheet">
+	<!-- Main Menu-->
+	<link rel="stylesheet" href="css/assets/meanmenu.css">   
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">	
+</head>
+<body class="teachers-01">
+      
+        
+     
+<!-- Preloader -->
+<div id="preloader">
+	<div id="status">&nbsp;</div>
+</div>
+<header id="header">
+	<div class="header-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-xs-12 header-top-left">
+					
+				</div>
+				<div class="col-sm-6 col-xs-12 header-top-right">
+					<ul class="list-unstyled">
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div><!-- Ends: .header-top -->
+
+	<div class="header-body">
+		<nav class="navbar edu-navbar">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="index-2.html" class="navbar-brand  data-scroll"><img src="images/a.png" alt=""><span></span></a>
+				</div>
+
+				<div class="collapse navbar-collapse edu-nav main-menu" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav pull-right">
+						<li class="active" ><a data-scroll="" href="">Home</a>
+						</li>
+						<li><a data-scroll="" href="">About Us</a></li>
+                                                <li><a data-scroll href="admin_logout.jsp">Contact Us</a></li>
+                                                <li><a data-scroll href="logins.jsp">Login</a></li>
+						
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container -->
+		</nav>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="intro-text ">
+						
+						
+					</div>
+				</div>
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</div>
+</header>
+<!--  End header section-->
+<center>
+        <p style="color:red;size:20;margin-left:10px;"><i>Registration Form</i></p>
+         <form action="signup" method="post">
+            <input type="text" placeholder="Name" name="t1" style="height:30px;width:200px;"><br><br>
+        <input type="text" placeholder="Email" name="t2" style="height:30px;width:200px;"><br><br>
+         <input type="password" placeholder="Enter Password" name="t9" style="height:30px;width:200px;"><br><br>
+        
+        <input type="text" placeholder="Mobile No." name="t3" style="height:30px;width:200px;"><br><br>
+        <input type="text" placeholder="Father's Name" name="t4" style="height:30px;width:200px;"><br><br>
+        <input type="text" placeholder="Father's contact Number" name="t5" style="height:30px;width:200px;"><br><br>
+      							
+        <input type="text" placeholder="Father's Email" name="t6" style="height:30px;width:200px;"><br><br>
+        GENDER: Male<input type="radio" value="male" name="gn" checked>
+        Female<INPUT type="radio" value="female" name="gn"><br><br>
+      
+         Course : <select name="t7">
+              <option>B.Tech</option>
+            <option>M.tech</option>
+        </select><br><br>
+        Semester : <select name="sem">
+              <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            </select><br><br>
+        
+        <input type="text" placeholder="Roll No." name="t8" style="height:30px;width:200px;"><br><br>
+        Room Preference<br>
+        <select name="se1">
+              <option>Single Room</option>
+            <option>Double Room</option>
+        </select><br><br>
+        <input type="submit" style="height:30px;width:100px;">
+   
+         </form>
+    </center><br>
+<!-- Footer Area section -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class=" col-sm-12 footer-content-box">
+				
+
+				
+
+				<div class="col-sm-2">
+					
+				</div>
+
+				<div class="col-sm-2">
+					
+				</div>	
+
+				<div class="col-sm-3">
+					
+
+					<form action="#">
+						<div class="form-group">
+							
+							
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="footer-bottom-inner">
+				<div class="row">
+					 <div class="col-md-6 col-sm-12 footer-no-padding">
+                                           <p>&copy; Copyright 2017 Thapar University | All rights reserved</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div><!-- ./ End footer-bottom -->		
+</footer><!-- ./ End Footer Area -->
+    <!-- ============================
+    JavaScript Files
+    ============================= -->
+    <!-- jQuery -->
+	<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="js/assets/bootstrap.min.js"></script>
+	<!-- Sticky JS -->
+	<script src="js/assets/jquery.sticky.js"></script>
+	<!-- Popup -->
+    <script src="js/assets/jquery.magnific-popup.min.js"></script>
+	<!-- Counter Up -->
+    <script src="js/assets/jquery.counterup.min.js"></script>
+    <script src="js/assets/waypoints.min.js"></script>
+ 	<!-- owl carousel -->
+    <script src="js/assets/owl.carousel.min.js"></script>
+   <!-- Slick Slider-->
+    <script src="js/assets/slick.min.js"></script>
+    <!-- Main Menu -->
+	<script src="js/assets/jquery.meanmenu.min.js"></script>
+	<!-- Custom JS -->
+	<script src="js/custom.js"></script>
+</body>
+    
+</html>
